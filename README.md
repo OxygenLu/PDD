@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">PDD🛍️🛒<br>Manifold-Prior Diverse Distillation for<br>
+  <h1 align="center">🛍️🛒<br>Manifold-Prior Diverse Distillation for<br>
     Medical Anomaly Detection
 </h1>
   <p align="center">
