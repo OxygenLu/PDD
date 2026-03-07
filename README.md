@@ -6,8 +6,8 @@
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=S0pp67AAAAAJ">Hongying Liu</a></span> ·
     <a href="https://scholar.google.com/citations?user=rk_HZTkAAAAJ&hl=zh-CN">Fanhua Shang</a></span> ·
     <a href="https://scholar.google.com/citations?user=Ot5FpIEAAAAJ&hl=zh-CN&oi=ao">Yanming Hui</a></span> ·
-    <a href="https://cic.tju.edu.cn/faculty/lwan/index.html">Liang Wan</a></span> ·
-    <br><h3 align="center">Tianjin University</h3><br>
+    <a href="https://cic.tju.edu.cn/faculty/lwan/index.html">Liang Wan</a></span> 
+    <br>Tianjin University · Medical School & College of Intelligence and Computing<br>
   </p>
   <h2 align="center">CVPR 2026</h2>
   <h3 align="center"><a href="https://github.com/OxygenLu/PDD">Code</a> | <a href="https://arxiv.org/pdf/xxx">Paper</a> | <a href="https://OxygenLu.github/xxx">Project Page</a> </h3>
@@ -19,15 +19,18 @@
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/OxygenLu/PDD/tree/main/static/framework.png" alt="Logo" width="100%">
+    <img src="https://github.com/OxygenLu/PDD/blob/main/static/framework.png" alt="Logo" width="100%">
   </a>
 </p>
-
- A diversity loss prevents representation collapse while maintaining detection sensitivity. Extensive experiments on multiple medical datasets demonstrate that PDD significantly outperforms existing state-of-the-art methods. 
+ <p>
+    <strong>PDD</strong> is a novel framework for <em>medical image anomaly detection</em>, designed to tackle subtle, heterogeneous anomalies in complex anatomical structures. 
+    Addressing the limitations of traditional Grad-CAM methods on medical data, PDD innovatively unifies dual-teacher priors—
+    <strong>frozen VMamba-Tiny</strong> (global context) and <strong>ResNet50</strong> (local structure)—into a shared high-dimensional manifold.
+  </p>
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/OxygenLu/PDD/tree/main/static/result.png" alt="Logo" width="100%">
+    <img src="https://github.com/OxygenLu/PDD/blob/main/static/result.png" alt="Logo" width="100%">
   </a>
 </p>
 <p align="center">
