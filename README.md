@@ -1,5 +1,6 @@
 <p align="center">
-  <h1 align="center">PDD🛍️🛒<br>Manifold-Prior Diverse Distillation for Medical Anomaly Detection
+  <h1 align="center">PDD🛍️🛒<br>Manifold-Prior Diverse Distillation for<br>
+    Medical Anomaly Detection
 </h1>
   <p align="center">
     <a href="https://github.com/OxygenLu">Xijun Lu</a></span> ·  
