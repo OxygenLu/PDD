@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">PDD🛍️<br>Manifold-Prior Diverse Distillation for Medical Anomaly Detection
+  <h1 align="center">PDD🛍️🛒<br>Manifold-Prior Diverse Distillation for Medical Anomaly Detection
 </h1>
   <p align="center">
     <a href="https://github.com/OxygenLu">Xijun Lu</a></span> ·  
@@ -7,7 +7,7 @@
     <a href="https://scholar.google.com/citations?user=rk_HZTkAAAAJ&hl=zh-CN">Fanhua Shang</a></span> ·
     <a href="https://scholar.google.com/citations?user=Ot5FpIEAAAAJ&hl=zh-CN&oi=ao">Yanming Hui</a></span> ·
     <a href="https://cic.tju.edu.cn/faculty/lwan/index.html">Liang Wan</a></span> ·
-    <br><h3 align="center">Tianjin University</h3><br>🛒
+    <br><h3 align="center">Tianjin University</h3><br>
   </p>
   <h2 align="center">CVPR 2026</h2>
   <h3 align="center"><a href="https://github.com/OxygenLu/PDD">Code</a> | <a href="https://arxiv.org/pdf/xxx">Paper</a> | <a href="https://OxygenLu.github/xxx">Project Page</a> </h3>
@@ -19,13 +19,18 @@
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/OxygenLu/PDD/tree/main/static/framework.pdf" alt="Logo" width="100%">
+    <img src="https://github.com/OxygenLu/PDD/tree/main/static/framework.png" alt="Logo" width="100%">
+  </a>
+</p>
+
+ A diversity loss prevents representation collapse while maintaining detection sensitivity. Extensive experiments on multiple medical datasets demonstrate that PDD significantly outperforms existing state-of-the-art methods. 
+
+<p align="center">
+  <a href="">
+    <img src="https://github.com/OxygenLu/PDD/tree/main/static/result.png" alt="Logo" width="100%">
   </a>
 </p>
 <p align="center">
- A diversity loss prevents representation collapse while maintaining detection sensitivity. Extensive experiments on multiple medical datasets demonstrate that \textbf{PDD} significantly outperforms existing state-of-the-art methods. 
-</p>
-
 
 <details open="open" style='padding: 10px; border-radius:5px 30px 30px 5px; border-style: solid; border-width: 1px;'>
   <summary>Table of Contents</summary>
