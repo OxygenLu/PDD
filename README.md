@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="">
-    <img src="https://github.com/OxygenLu/PDD/static/teaser.png" alt="Logo" width="100%">
+    <img src="https://github.com/OxygenLu/PDD/tree/main/static/framework.pdf" alt="Logo" width="100%">
   </a>
 </p>
 <p align="center">
