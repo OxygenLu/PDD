@@ -1,5 +1,10 @@
 <p align="center">
-  <h1 align="center">🛍️🛒<br>Manifold-Prior Diverse Distillation for<br>
+  <a href="">
+    <img src="https://github.com/OxygenLu/PDD/blob/main/static/pdd.jpg" alt="Logo" width="100%">
+  </a>
+</p>
+<p align="center">
+  <h1 align="center">Manifold-Prior Diverse Distillation for<br>
     Medical Anomaly Detection
 </h1>
   <p align="center">
@@ -24,7 +29,7 @@
   </a>
 </p>
  <p>
-    <strong>PDD</strong> is a novel framework for <em>medical image anomaly detection</em>, designed to tackle subtle, heterogeneous anomalies in complex anatomical structures. 
+    <strong>PDD</strong>🛍️🛒is a novel framework for <em>medical image anomaly detection</em>, designed to tackle subtle, heterogeneous anomalies in complex anatomical structures. 
     Addressing the limitations of traditional Grad-CAM methods on medical data, PDD innovatively unifies dual-teacher priors—
     <strong>frozen VMamba-Tiny</strong> (global context) and <strong>ResNet50</strong> (local structure)—into a shared high-dimensional manifold.
   </p>
