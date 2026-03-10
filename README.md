@@ -58,5 +58,13 @@
 ## Citation
 If you find our code or paper useful, please cite
 ```bibtex
-
+@misc{lu2026pddmanifoldpriordiversedistillation,
+      title={PDD: Manifold-Prior Diverse Distillation for Medical Anomaly Detection}, 
+      author={Xijun Lu and Hongying Liu and Fanhua Shang and Yanming Hui and Liang Wan},
+      year={2026},
+      eprint={2603.07142},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.07142}, 
+}
 ```
