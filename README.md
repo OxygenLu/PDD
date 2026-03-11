@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Manifold-Prior Diverse Distillation for<br>
+  <h1 align="center">Manifold-<font color=#FF80AB>P</font>rior <font color=#FF80AB>D</font>iverse <font color=#FF80AB>D</font>istillation for<br>
     Medical Anomaly Detection
 </h1>
   <p align="center">
