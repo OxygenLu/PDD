@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and experiment outputs
+logs/
+runs/
+wandb/
+tensorboard/
+vis/
+outputs/
+results/
+
+# Checkpoints and weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# Local data
+data/
+datasets/
+dataset/
+
+# Temporary files
+tmp/
+temp/
+*.log
