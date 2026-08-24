@@ -62,9 +62,6 @@
   <img src="static/framework.png" alt="PDD framework" width="100%">
 </p>
 
-<p align="center">
-  <img src="static/framework.png" alt="PDD framework" width="100%">
-</p>
 
 PDD is a medical image anomaly detection framework based on manifold-prior diverse distillation. It uses two frozen teachers, VMamba-Tiny for global context and Wide-ResNet50-2 for local structure, and trains a lightweight PDD decoder to reconstruct and align multi-level features.
 
