@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <h1 align="center">Manifold-<font color=#FF80AB>P</font>rior <font color=#FF80AB>D</font>iverse <font color=#FF80AB>D</font>istillation for<br>
     Medical Anomaly Detection
   </h1>
@@ -20,6 +20,46 @@
     <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
     <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
   </div>
+</p> -->
+<p align="center">
+  <img
+    src="static/title.svg"
+    alt="Manifold-Prior Diverse Distillation for Medical Anomaly Detection"
+    width="850"
+  >
+</p>
+
+<p align="center">
+  <a href="https://github.com/OxygenLu">Xijun Lu</a> ·
+  <a href="https://scholar.google.com/citations?hl=zh-CN&user=S0pp67AAAAAJ">Hongying Liu</a> ·
+  <a href="https://scholar.google.com/citations?user=rk_HZTkAAAAJ&hl=zh-CN">Fanhua Shang</a> ·
+  <a href="https://scholar.google.com/citations?user=Ot5FpIEAAAAJ&hl=zh-CN&oi=ao">Yanming Hui</a> ·
+  <a href="https://cic.tju.edu.cn/faculty/lwan/index.html">Liang Wan</a>
+  <br>
+  Tianjin University · Medical School & College of Intelligence and Computing
+</p>
+
+<h2 align="center">CVPR 2026</h2>
+
+<h3 align="center">
+  <a href="https://github.com/OxygenLu/PDD">Code</a> |
+  <a href="https://arxiv.org/pdf/2603.07142">Paper</a> |
+  <a href="https://oxygenlu.github.io/xxx">Project Page</a>
+</h3>
+
+<div align="center">
+  <a href="https://pytorch.org/get-started/locally/">
+    <img alt="PyTorch"
+         src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white">
+  </a>
+  <a href="https://pytorchlightning.ai/">
+    <img alt="Lightning"
+         src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white">
+  </a>
+</div>
+
+<p align="center">
+  <img src="static/framework.png" alt="PDD framework" width="100%">
 </p>
 
 <p align="center">
