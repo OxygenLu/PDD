@@ -59,11 +59,16 @@ class MVTecDataset(torch.utils.data.Dataset):
 
 
         for defect_type in defect_types:
-            if defect_type == 'good':
+            if defect_type == 'good': # dataset: head_ct
                 img_paths = find_images(os.path.join(self.img_path, defect_type))
                 img_tot_paths.extend(img_paths)
                 tot_labels.extend([0] * len(img_paths))
                 tot_types.extend(['good'] * len(img_paths))
+            elif defect_type == 'normal_256': # dataset: zhanglab 
+                img_paths = find_images(os.path.join(self.img_path, defect_type))
+                img_tot_paths.extend(img_paths)
+                tot_labels.extend([0] * len(img_paths))
+                tot_types.extend(['normal_256'] * len(img_paths))
             else:
                 img_paths = find_images(os.path.join(self.img_path, defect_type))
                 img_tot_paths.extend(img_paths)
