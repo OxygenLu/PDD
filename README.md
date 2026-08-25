@@ -106,12 +106,14 @@ Create the environment from the exported conda file:
 ```bash
 cd /PDD
 conda env create -f environment.yml
-conda activate vmamba
+conda activate PDD
 ```
 
 Or install from pip requirements if you already have a compatible CUDA/PyTorch environment:
 
 ```bash
+# Our env. version is Python 3.10.18
+conda create -n PDD python==3.10
 pip install -r requirements.txt
 ```
 
@@ -230,6 +232,7 @@ If you find our code or paper useful, please cite:
 
 ## Acknowledgement
 
-This project builds on VMamba. We thank the authors for their excellent work:
+This project builds on VMamba, RD4AD. We thank the authors for their excellent work:
 
 - [VMamba](https://github.com/mzeromiko/vmamba)
+- [RD4AD](https://github.com/hq-deng/RD4AD)
