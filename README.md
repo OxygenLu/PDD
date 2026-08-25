@@ -1,26 +1,3 @@
-<!-- <p align="center">
-  <h1 align="center">Manifold-<font color=#FF80AB>P</font>rior <font color=#FF80AB>D</font>iverse <font color=#FF80AB>D</font>istillation for<br>
-    Medical Anomaly Detection
-  </h1>
-  <p align="center">
-    <a href="https://github.com/OxygenLu">Xijun Lu</a> ·
-    <a href="https://scholar.google.com/citations?hl=zh-CN&user=S0pp67AAAAAJ">Hongying Liu</a> ·
-    <a href="https://scholar.google.com/citations?user=rk_HZTkAAAAJ&hl=zh-CN">Fanhua Shang</a> ·
-    <a href="https://scholar.google.com/citations?user=Ot5FpIEAAAAJ&hl=zh-CN&oi=ao">Yanming Hui</a> ·
-    <a href="https://cic.tju.edu.cn/faculty/lwan/index.html">Liang Wan</a>
-    <br>Tianjin University · Medical School & College of Intelligence and Computing<br>
-  </p>
-  <h2 align="center">CVPR 2026</h2>
-  <h3 align="center">
-    <a href="https://github.com/OxygenLu/PDD">Code</a> |
-    <a href="https://arxiv.org/pdf/2603.07142">Paper</a> |
-    <a href="https://OxygenLu.github/xxx">Project Page</a>
-  </h3>
-  <div align="center">
-    <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-    <a href="https://pytorchlightning.ai/"><img alt="Lightning" src="https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white"></a>
-  </div>
-</p> -->
 <p align="center">
   <img
     src="static/title.svg"
@@ -71,11 +48,12 @@ This repository is a cleaned training subset refactored from `VAD-TS`. It contai
   <img src="static/result.png" alt="PDD results" width="100%">
 </p>
 
-## News
+# News 🎉
 
 - [2026/02/21] PDD is accepted to CVPR 2026.
+- [2026/08/24] Training code is now available.
 
-## Project Structure
+# Project Structure
 
 ```text
 PDD/
@@ -99,7 +77,7 @@ PDD/
   logs/                       # TensorBoard output, ignored by git
 ```
 
-## Environment
+# Environment
 
 Create the environment from the exported conda file:
 
@@ -117,9 +95,9 @@ conda create -n PDD python==3.10
 pip install -r requirements.txt
 ```
 
-## Data
+# Data
 
-### Single-Class Data
+## Single-Class Data
 
 The single-class script expects an MVTec-like layout:
 
@@ -137,7 +115,7 @@ data_path/
 
 Image suffixes are matched case-insensitively for common formats such as `png`, `jpg`, `jpeg`, and `jepg`.
 
-### Multi-Class Data
+## Multi-Class Data
 
 The multi-class script uses `utils/dataset_full.py` and expects a `meta.json` file under `data_path`:
 
@@ -159,9 +137,9 @@ data_path/
 
 For training, only records with `"anomaly": 0` are used.
 
-## Training
+# Training
 
-### Single-Class DDP
+## Single-Class DDP
 
 ```bash
 CUDA_VISIBLE_DEVICES=4,5 torchrun --nproc_per_node=2 scripts/train_two_twins_ddp.py \
@@ -169,7 +147,7 @@ CUDA_VISIBLE_DEVICES=4,5 torchrun --nproc_per_node=2 scripts/train_two_twins_ddp
   --save_path /your/path/PDD/checkpoints/head_ct
 ```
 
-### Multi-Class DDP
+## Multi-Class DDP
 
 ```bash
 CUDA_VISIBLE_DEVICES=4,5 torchrun --nproc_per_node=2 scripts/train_two_twins_ddp_multi.py \
@@ -184,7 +162,7 @@ Default training settings follow the `tao_0375` branch:
 - `layerloss=4`
 - decoder entry: `models.mamba_decoder.pdd_decoder`
 
-## Visualization
+# Visualization
 
 Run test-set inference and save original image, heatmap, overlay, and comparison images:
 
@@ -196,7 +174,7 @@ CUDA_VISIBLE_DEVICES=5 python scripts/vis_eval.py \
 
 The checkpoint path and default `head_ct` data path are currently defined in `scripts/vis_eval.py`.
 
-## Outputs
+# Outputs
 
 Training writes:
 
@@ -210,13 +188,13 @@ Visualization writes:
 - overlays to `vis/*/overlay/`
 - side-by-side comparisons to `vis/*/compare/`
 
-## Notes
+# Notes
 
 - No trained weights are committed in this repository.
 - Teacher pretrained weights are loaded through the model definitions and the local PyTorch/timm cache.
 - Use `torchrun` for DDP training. `CUDA_VISIBLE_DEVICES` controls which physical GPUs are visible; inside the script each process uses its local rank.
 
-## Citation
+# Citation
 
 If you find our code or paper useful, please cite:
 
@@ -230,7 +208,7 @@ If you find our code or paper useful, please cite:
 }
 ```
 
-## Acknowledgement
+# Acknowledgement
 
 This project builds on VMamba, RD4AD. We thank the authors for their excellent work:
 
